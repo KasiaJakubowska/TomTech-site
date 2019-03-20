@@ -1,0 +1,272 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.my-container{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero-section{
+    min-height: 95vh;
+    background-image: url('img/hero_img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.nav-wrapper{
+    width: 100%;
+    background: rgba(0,0,0,0.3);
+    
+    padding: 10px 0 10px 0;
+    border: none;
+    color: #ffffff;
+    
+}
+
+.nav-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.nav-links{
+    list-style-type: none;
+    display: flex;
+   
+    
+}
+
+.nav-link__item{
+    transition: 0.4s;
+    margin-left: 20px;
+    cursor: pointer;
+    position: relative;
+    padding-bottom: 12px;
+    padding-top: 12px;
+}
+
+
+.nav-link__item:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 3px;
+  left: 50%;
+  position: absolute;
+  background: #ffffff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.nav-link__item:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
+/*
+.nav-link__item:hover{
+       border-bottom: 1px solid #ffffff; 
+}
+*/
+ul a{
+    
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+.nav-contact {
+    display: flex;
+    
+            
+}
+.tel{
+    display: flex;
+    align-items: center;
+    
+}
+
+.tel-icon{
+    width: 32px;
+    margin-left:28px;
+}
+
+.prefix{
+    color:#ffffff;
+    margin-right: 8px;
+    margin-left:8px;
+}
+.phone-number{
+    color: #1c97d3;
+}
+.map{
+    display: flex;
+    align-items: center;
+    
+}
+
+.map-icon{
+    width: 48px;
+    padding-right: 18px;
+}
+
+.adress span{
+    display: block;
+    font-size: 14px;
+}
+.adress-color{
+    color: #1c97d3;
+}
+.logo-content{
+     position: absolute;
+            width: 175px;
+            height: 130px;
+            margin-top: 10%;
+            margin-left: 11.5%;
+            clear: both;
+    
+}
+.camera-logo{
+    
+      position: absolute;
+            top: -35%;
+            left: 82%;
+            width: 100px;
+            transform-origin: center bottom;
+    
+}
+.txt-logo{
+      position: absolute;
+            top: 0%;
+            left:0%;
+            width: 250px;
+}
+
+.technology{
+    display: flex;
+    font-size: 52px;
+    color: white;
+    margin-top: 250px;     
+}
+.technologia {
+    margin-right: 30px;
+    
+    
+}
+.jutra{
+    color: #1c97d3;
+    background-color: white;
+}
+.topic1 {
+    height: 15vh;
+    
+}
+.topic-zakres_uslug{
+    font-size: 34px;
+    padding-top: 45px;
+    font-weight: 700;
+}
+.zakres{
+    margin-right: 13px;
+    color: #121538;
+    
+}
+.uslug{
+    color: #1c97d3;
+}
+.tv{
+    height: 21vh; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+    
+    
+}
+.tv-icon1, .tv-icon2, .tv-icon3 {
+    width: 130px;
+   
+    
+}
+.tv-text{
+    display: flex;
+    height: 30vh;
+    
+    
+}
+.p1, .p2, .p3{
+    text-align: justify;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 18px;
+    
+}
+.h1{
+    color: #1c97d3;
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 20px;
+    
+}
+.about{
+   background-color: #121538; 
+}
+.topic2{
+    height: 12vh;
+    font-size: 34px;
+    padding-top: 25px;
+    font-weight: 700;
+    
+}
+.o{
+    color: white;
+    margin-right: 13px;
+}
+.nas{
+    color: #1c97d3;
+}
+.about-text{
+    background-color: #121538; 
+    height: 88vh;
+    
+}
+.about-us{
+    color: white;
+    font-size: 32px;
+    text-align: justify;
+}
+.galeria{
+    
+}
+.topic3{
+    height: 12vh;
+    font-size: 34px;
+    padding-top: 25px;
+    font-weight: 700;
+    color: #1c97d3;
+}
+.images{
+    height: 88vh;
+    display: flex;
+    flex-wrap: wrap;
+ 
+}
+.gallery a{
+    flex-basis: 50%;
+}
+
+.sticky {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100;
+}

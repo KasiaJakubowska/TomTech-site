@@ -274,7 +274,7 @@ ul a{
     display: flex;
     flex-wrap: wrap; 
     /* background-color: gray; */
-    
+    overflow-x: hidden;
    
         
 }
@@ -286,7 +286,6 @@ ul a{
     margin: 0 25px;   
     /* background-color: black; */
     /* box-shadow: 0 0 3px 3px #121538; */
-    
 }
 .images{
     position: absolute;

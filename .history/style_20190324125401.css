@@ -286,7 +286,7 @@ ul a{
     margin: 0 25px;   
     /* background-color: black; */
     /* box-shadow: 0 0 3px 3px #121538; */
-    
+    overflow-x: hidden;
 }
 .images{
     position: absolute;

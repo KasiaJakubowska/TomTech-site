@@ -166,8 +166,6 @@ ul a{
 .jutra{
     color: #1c97d3;
     background-color: white;
-    padding-left: 10px;
-    padding-right: 10px;
 }
 .topic1 {
     height: 15vh;
@@ -261,9 +259,9 @@ ul a{
     color: #1c97d3;
 }
 .gallery-container{
-    position: relative;
-    min-height: 100vh;
-    
+position: relative;
+min-height: 100vh;
+
 
 }
 .gallery-container .images {
@@ -283,19 +281,17 @@ ul a{
     overflow: hidden;
     /* flex-basis: calc(33% - 50px); */
     /* height: 30%; */
+    
     margin: 0 25px;   
     /* background-color: black; */
-    /* box-shadow: 0 0 3px 3px #121538; */
+    
     
 }
 .images{
-    position: absolute;
     padding-left: 20px;
-    padding-bottom: 10%;
-    
+    padding-bottom: 15%;
+
 }
-
-
 
 
 .sticky {

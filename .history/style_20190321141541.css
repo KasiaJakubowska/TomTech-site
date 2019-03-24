@@ -166,8 +166,6 @@ ul a{
 .jutra{
     color: #1c97d3;
     background-color: white;
-    padding-left: 10px;
-    padding-right: 10px;
 }
 .topic1 {
     height: 15vh;
@@ -255,48 +253,35 @@ ul a{
 }
 .topic3{
     height: 12vh;
-    font-size: 51px;
+    font-size: 42px;
     padding-top: 25px;
     font-weight: 700;
     color: #1c97d3;
 }
 .gallery-container{
-    position: relative;
-    min-height: 100vh;
-    
+position: relative;
+min-height: 100vh;
 
 }
-.gallery-container .images {
+.images .gallery-container{
     position: absolute;
     align-content: space-around;
-  
+    padding-top: 30px;
     height: 88vh;
     display: flex;
-    flex-wrap: wrap; 
-    /* background-color: gray; */
-    
-   
+    flex-wrap: wrap;
+    min-width: 100%;
+    min-height: 100%;
         
 }
 .images a{
+    flex-basis: 33%;
+    
     position: relative;
     overflow: hidden;
-    /* flex-basis: calc(33% - 50px); */
-    /* height: 30%; */
-    margin: 0 25px;   
-    /* background-color: black; */
-    /* box-shadow: 0 0 3px 3px #121538; */
-    
+    margin: 20px 20px;
+   
 }
-.images{
-    position: absolute;
-    padding-left: 20px;
-    padding-bottom: 10%;
-    
-}
-
-
-
 
 .sticky {
     width: 100%;

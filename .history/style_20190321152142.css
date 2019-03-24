@@ -166,8 +166,6 @@ ul a{
 .jutra{
     color: #1c97d3;
     background-color: white;
-    padding-left: 10px;
-    padding-right: 10px;
 }
 .topic1 {
     height: 15vh;
@@ -261,12 +259,12 @@ ul a{
     color: #1c97d3;
 }
 .gallery-container{
-    position: relative;
-    min-height: 100vh;
-    
+position: relative;
+min-height: 100vh;
+
 
 }
-.gallery-container .images {
+/* .gallery-container .images {
     position: absolute;
     align-content: space-around;
   
@@ -277,26 +275,60 @@ ul a{
     
    
         
-}
-.images a{
+/* } */
+
+/* .images a{
     position: relative;
     overflow: hidden;
     /* flex-basis: calc(33% - 50px); */
     /* height: 30%; */
-    margin: 0 25px;   
+    /* margin: 0 25px;    */
     /* background-color: black; */
     /* box-shadow: 0 0 3px 3px #121538; */
-    
-}
-.images{
+/* } */
+
+/* .images{
     position: absolute;
     padding-left: 20px;
-    padding-bottom: 10%;
-    
-}
+    padding-bottom: 15%; */ 
+   
 
+/* }  */
 
-
+.gallery-container .images {
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    bottom: 5%;
+    left: 35%;
+    /* height: 90%; */
+    /* width: 60%; */
+    background-color: gray
+   }
+   
+   .images a {
+    position: relative;
+    overflow: hidden;
+    flex-basis: calc(50% - 40px);
+    /* flex-grow: 1; */
+    height: 20%;
+    margin: 0 20px;
+    background-color: black;
+   }
+   
+   .images {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+   }
 
 .sticky {
     width: 100%;

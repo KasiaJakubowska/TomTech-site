@@ -261,16 +261,16 @@ ul a{
     color: #1c97d3;
 }
 .gallery-container{
-    position: relative;
-    min-height: 100vh;
-    
+position: relative;
+min-height: 100vh;
+
 
 }
 .gallery-container .images {
     position: absolute;
     align-content: space-around;
   
-    height: 88vh;
+    height: 70vh;
     display: flex;
     flex-wrap: wrap; 
     /* background-color: gray; */
@@ -286,12 +286,11 @@ ul a{
     margin: 0 25px;   
     /* background-color: black; */
     /* box-shadow: 0 0 3px 3px #121538; */
-    
 }
 .images{
     position: absolute;
     padding-left: 20px;
-    padding-bottom: 10%;
+    padding-bottom: 15%;
     
 }
 
